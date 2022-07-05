@@ -17,7 +17,6 @@ public class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
-
     @Test
     void currentMaxNotFirst() {
         StatisticsService service = new StatisticsService();

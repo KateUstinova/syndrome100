@@ -84,8 +84,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <includeFilterFile>spotbugs-security-include.xml</includeFilterFile>
-                    <excludeFilterFile>spotbugs-security-exclude.xml</excludeFilterFile>
+                    <includeFilterFile>Spotbugs-security-include.xml</includeFilterFile>
+                    <excludeFilterFile>Spotbugs-security-exclude.xml</excludeFilterFile>
                     <plugins>
                         <plugin>
                             <groupId>com.h3xstream.findsecbugs</groupId>
